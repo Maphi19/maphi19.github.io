@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    background-image: url("fon1.jpg");
+    background-blend-mode: screen;
+    background-color: rgb(157, 186, 211);
+    background-position: center;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 194, 247, 0.952);
+}
+
+img {
+    width: 30px;
+    margin: 10px;
+}
+
+.button-1 {
+    display: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-link-1:hover {
+    color: rgb(202, 202, 213);
+}
+
+.header-link-2:hover {
+    color: rgb(202, 202, 213);
+}
+
+.header-link-3:hover {
+    color: rgb(202, 202, 213);
+}
+
+.header-link-4:hover {
+    color: rgb(202, 202, 213);
+}
+
+.header-link-1:focus {
+    color: rgb(74, 102, 160);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.foto {
+    width: 400px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.gallery {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foto1 {
+    width: 270px;
+    border-radius: 5px;
+}
+
+.foto2 {
+    width: 270px;
+    border-radius: 5px;
+}
+
+.foto3 {
+    width: 270px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(68, 69, 69, 0.952);
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footer-img {
+    width: 18px;
+    margin: 0;
+}
+
+.footer_text {
+    display: flex;
+    align-items: center;
+}
+
+.social_links a {
+    font-weight: 200;
+    margin: 0 3px;
+}
+
+@media (max-width: 760px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .text1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .foto {
+        width: 300px;
+    }
+
+    .button-1 {
+        display: block;
+        font-size: 24px;
+        width: 40px;
+        background-color: rgb(102, 194, 247, 0.100);
+        border: none;
+    }
+
+    .header-button ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        background-color: rgb(102, 194, 247, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .header-button:hover ul {
+        display: flex;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+}

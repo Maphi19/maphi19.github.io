@@ -1,0 +1,31 @@
+h1{
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline 4px;
+}
+button{
+    color: rgb(244, 247, 244);
+    background-color: green;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: black;
+}
+span{
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: black;
+}
+.text1{
+    color: gray;
+}
+select{
+    background-color: white;
+    padding: 10px;
+}
+input{
+    padding: 10px;
+}
+textarea{
+    padding: 30px;
+} 
